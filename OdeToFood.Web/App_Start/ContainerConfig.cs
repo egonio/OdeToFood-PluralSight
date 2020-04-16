@@ -12,7 +12,7 @@ using System.Web.Mvc;
 namespace OdeToFood.Web
 {
     public class ContainerConfig
-    {
+    { 
         internal static void RegisterContainer(HttpConfiguration httpConfiguration)
         {
             var builder = new ContainerBuilder();
